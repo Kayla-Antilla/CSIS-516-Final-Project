@@ -1,0 +1,83 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #F5F5DC;
+}
+
+#title-header{
+    color: #ff0000;
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+nav{
+    text-align: center;  
+}
+
+div{
+    font-weight: bolder;
+    line-height: 200%; /*or you can do 32px instead of 200% */
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    text-align: center;
+}
+
+main{
+    border: 2px solid black;
+    font-family: "poppins",sans-serif;
+    margin: 100px;  /*margin is for external spacing (around the main block) */
+    padding: 100px; /*padding is for internal spacing (within the main block border) */
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;  same thing as margin: 100px*/
+}
+
+footer{
+    text-decoration: dotted underline;
+    width: 50%;
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 3rem 2rem 1rem 0.5rem;
+}
+
+*{
+    box-sizing: border-box;
+    /* margin:0;
+    padding:0; */
+}
+
+body{
+    font-size: 1.7rem;
+}
+
+.list1{
+    color: goldenrod;
+}
+
+footer p{
+    color: red;
+}
+
+main p span{
+    font-weight: bold;
+}
+
+main div span{
+    font-style: italic;
+}
+
+#image1{
+    float: left;
+}
+
+#image2{
+    float: right;
+ }
+
+#second{
+    clear: left;
+}

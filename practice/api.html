@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries API</title>
+</head>
+<body>
+    <select name="countries" id="countries">
+        <option value="US">United States</option>
+        <option value="IT">Italy</option>
+        <option value="CA">Canada</option>
+        <option value="IN">India</option>
+    </select>
+
+    <script>
+        console.log("Hello")
+        const countryList = document.querySelector("#countries")
+
+        countryList.addEventListener("input",()=>{
+            let val = countryList.value
+            console.log(val)
+            let base_url = 'https://restcountries.eu/rest/v2/alpha/'
+            url = base_url + val
+            // console.log(url)
+            fetch(url).then((response)=>response.json())
+            .then((data)=>{
+                console.log(data)
+                console.log("Name: " + data.name)
+                console.log("Capital City: " + data.capital)
+                console.log("Primary Language: " + data.languages[0].name)
+            })
+            .catch((error)=>console.log(error))
+        })
+    </script>
+</body>
+</html>

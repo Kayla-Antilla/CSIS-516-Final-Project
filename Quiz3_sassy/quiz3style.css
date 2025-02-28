@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h1{
+    margin: 1rem;
+    /* font-size: large; */
+}
+
+img{
+    height: 80vh;
+}
+
+#giftText{
+    position:absolute;
+    top: 30%;
+    left:42%;
+    /* display: block; */
+}
+
+#amount{
+    position: absolute;
+    top: 48%;
+    left: 45%;
+}

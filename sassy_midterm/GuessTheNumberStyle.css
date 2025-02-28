@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.display{
+    display: inline-block;
+}
+
+body{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 1rem;
+    color:dodgerblue;
+}
+
+#button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    
+}
+
+#button:hover{
+    background-color:darkorange;
+}
+
+#guessText{
+    color: darkcyan;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+#guess{
+    color: darkorange;
+}
+
+#results{
+    color: blueviolet;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#text{
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#history{
+    margin: 4rem;
+}

@@ -53,6 +53,3 @@ class SocialMediaProfileFinder:
         return ;
 
 SocialMediaProfileFinder()  # Create GUI 
-
-# git config --user.email "sassykayla22@gmail.com"
-# git config --user.name "Kayla-Antilla"

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 2rem;
+}
+
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+    padding: 1rem;
+    /* font-size:small; */
+}
+
+.info{
+    background-color: antiquewhite;
+}
+
+.size{
+    background-color:lightskyblue;
+}
+
+.crust{
+    background-color: lightpink;
+}
+
+.toppings{
+    background-color: lightgreen;
+}
+
+.display{
+    width: 100vw;
+}
+
+#cost{
+    text-align: center;
+    margin: 2rem;
+}

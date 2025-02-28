@@ -1,0 +1,70 @@
+header{
+    background-color: red;
+    height: 5vh;
+    text-align: center;
+}
+
+nav{
+    float: left;
+    width: 20vw;
+    height: 90vh;
+    background-color: orange;
+    text-align: center;
+}
+
+main{
+    width: 80vw;
+    float: right;
+    height: 90vh;
+    background-color: yellow;
+    text-align: center;
+}
+
+li{
+    /* display: inline-block; */
+    height: 50px;
+    border: 1px dotted black;
+}
+
+/* main p{
+    background-color: yellow;
+} */
+
+footer{
+    clear: both;
+    background-color: greenyellow;
+    height: 5vh;
+    text-align: center;
+}
+
+*{
+    /* background-color: deepskyblue; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+ul{
+    list-style: none;
+}
+
+li:hover{
+    background-color:gold;
+}
+
+a:hover{
+    background-color: orangered;
+}
+
+#txtInput:focus{
+    background-color:hotpink;
+    color: white;
+}

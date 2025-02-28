@@ -1,0 +1,55 @@
+html{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 62.5%;
+}
+
+/* main header{
+    background-color: white;
+    color: black;
+    text-align: center;
+} */
+
+header {
+    background-color:#d5a400;
+    color: white;
+    font-family: "pattaya",sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: #97f7d3;
+    color:darkviolet;
+    font-family: "roboto",sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+body {
+    font-family: "poppins",sans-serif;
+}
+
+main div fieldset{
+    background-color: beige;
+}
+
+main div fieldset form{
+  line-height: 25px;  
+}
+
+main div fieldset form p {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    border: 2px solid red ;
+}
+
+footer {
+    background-color:skyblue;
+}
+
+footer p div a{
+    color: darkviolet;
+}

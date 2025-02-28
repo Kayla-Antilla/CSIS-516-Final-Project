@@ -1,0 +1,183 @@
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+}
+
+.top{
+    background-color: white;
+}
+
+h1{
+    font-family: "Lobster", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: coral;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main{
+    background-color: beige;
+    /* margin-top: 1.8rem; */
+}
+
+.information{
+    padding-top: 2rem;
+}
+
+.aboutUsImage{
+    margin-top: 3rem;;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.card-title{
+    font-family: "Lobster", sans-serif;
+    font-size: display-2;
+    color: coral;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cover{
+    margin-top: 1.8rem;
+    width: 100vw;
+    height: 55vh;
+    /* display: flex; */
+}
+
+.row{
+    background-color: beige;
+}
+
+.menuItem{
+    background-color: coral;
+    margin: 5px;
+}
+
+.price{
+    text-align: center;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: gold;
+    color: black;
+    border: none;
+}
+
+.btnOrder{
+    /* width: 14rem; */
+    width: 100%;
+    margin-top: auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.carousel-caption{
+    position: absolute;
+    text-align: center;
+    background-color: beige;
+    color: black;
+    max-width:30rem;
+    min-width: 20rem;
+    margin: auto;
+    max-height: 10rem;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 30rem; */
+}
+
+.reviewText{
+    font-size: small;
+}
+
+.form{
+    /* padding-bottom: 4rem; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info{
+    margin-left: 2rem;
+}
+
+.find{
+    padding-bottom: 4rem;
+}
+
+.location{
+    background-color: coral;
+    color: white;
+    height: 250px;
+    margin: 2rem;
+    /* margin-bottom: 4rem; */
+    /* padding: 2rem; */
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.location card-body{
+    padding: 1rem;
+}
+
+.map{
+    margin: 2rem;
+    /* width: 600px; */
+}
+/* 
+@media (min-width: 200px) {
+    /* Override the background color and margin for large screens */
+    .location {
+        background-color: coral;
+        color: white;
+        height: 250px;
+        margin: 2rem;
+    }
+
+    .map {
+        margin: 2rem;
+    }
+/* } */ */
+
+/* .form{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+footer{
+    display: flex;
+    align-content: center;
+}
+
+.footer{
+    color: gray;
+    width:100vw;
+    display: flex;
+    /* align-content: start; */
+    margin:auto;
+    padding: auto;
+}
