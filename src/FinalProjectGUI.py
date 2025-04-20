@@ -2,6 +2,7 @@ import sys
 import subprocess
 from tkinter import * # Import tkinter
 from PIL import Image, ImageTk, ImageDraw # For adding images
+
 # import requests
 # from io import BytesIO
     
@@ -23,6 +24,7 @@ class SocialMediaProfileFinder:
         self.window.grid_columnconfigure(3, weight = 1)
         self.window.grid_columnconfigure(4, weight = 1)
 
+
         # Load and display a cicrular image of a magnifying glass as the page logo
         image_path = "C:/Users/sassy/Downloads/magnifying glass picture.jpg"
         circular_img = self.make_circle(image_path)
@@ -32,10 +34,12 @@ class SocialMediaProfileFinder:
         img_label.image = tk_image
         img_label.grid(row = 1, column = 2)
 
+
         # App title
         Label(self.window, text = "Social Media Profile Finder", 
             font = ("Helvetica", "30", "bold"), foreground = "royalblue1").grid(
             row = 2, column = 1, columnspan = 3, sticky = "nsew", pady = 40)
+
 
         # Create input fields for first and last name 
         Label(self.window, text = "First Name:", font=("Arial", 16)).grid(row = 3, 
@@ -43,6 +47,7 @@ class SocialMediaProfileFinder:
         Label(self.window, text = "Last Name:", font=("Arial", 16)).grid(row = 4, 
             column = 1, sticky = E)
         
+
         # First name entry
         self.firstName = StringVar(value = first_name)
         Entry(self.window, textvariable = self.firstName, 
@@ -69,6 +74,7 @@ class SocialMediaProfileFinder:
 
         self.window.mainloop() # Create an event loop
 
+
     # Convert a square image to a circular image
     def make_circle(self, image_path, size =(100, 100)):
         img = Image.open(image_path).resize(size, Image.LANCZOS)
@@ -79,6 +85,7 @@ class SocialMediaProfileFinder:
         circular_img.paste(img, (0, 0), mask = mask)
         return circular_img
 
+
     # Clears both the first and last name entries
     def clear(self):
         self.firstName.set("")
@@ -88,6 +95,7 @@ class SocialMediaProfileFinder:
     def find(self):
         first_name = self.firstName.get()
         last_name = self.lastName.get()
+
 
         # Link to the path that will show the results
         script_path = "C:/Users/sassy/OneDrive - Saginaw Valley State University/CIS255/CSIS 516/FinalProject/FinalProjectResultsGUI.py"
