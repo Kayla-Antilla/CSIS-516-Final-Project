@@ -42,11 +42,11 @@ class SocialMediaProfiles:
         # self.window.grid_columnconfigure(4, weight = 2)
 
         # Create profile rows for each of the platforms
-        self.create_platform_row("Snapchat", "C:/Users/sassy/Downloads/snapchat logo picture.jpg", 1)
-        self.create_platform_row("Instagram", "C:/Users/sassy/Downloads/instagram logo picture.jpg", 2)
-        self.create_platform_row("Facebook", "C:/Users/sassy/Downloads/facebook logo picture.jpg", 3)
-        self.create_platform_row("Tik Tok", "C:/Users/sassy/Downloads/tik tok logo picture.jpg", 4)
-        self.create_platform_row("X (Twitter)", "C:/Users/sassy/Downloads/twitter logo picture.jpg", 5)
+        self.create_platform_row("Snapchat", "Images/snapchat logo picture.jpg", 1)
+        self.create_platform_row("Instagram", "Images/instagram logo picture.jpg", 2)
+        self.create_platform_row("Facebook", "Images/facebook logo picture.jpg", 3)
+        self.create_platform_row("Tik Tok", "Images/tik tok logo picture.jpg", 4)
+        self.create_platform_row("X (Twitter)", "Images/twitter logo picture.jpg", 5)
 
         # Create a back button to return back to the search page 
         btBack = Button(self.window, text = "Back", 
@@ -120,7 +120,7 @@ class SocialMediaProfiles:
     #Handle the back button to return to the search screen and retain the current entry
     def back(self):
         # Path to the search screen
-        script_path = "C:/Users/sassy/OneDrive - Saginaw Valley State University/CIS255/CSIS 516/FinalProject/src"
+        script_path = "src/FinalProjectGUI.py"
             
         try:
             subprocess.run(["python", script_path, self.firstName, self.lastName])

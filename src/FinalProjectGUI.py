@@ -26,7 +26,7 @@ class SocialMediaProfileFinder:
 
 
         # Load and display a cicrular image of a magnifying glass as the page logo
-        image_path = "C:/Users/sassy/Downloads/magnifying glass picture.jpg"
+        image_path = "Images/magnifying glass picture.jpg"
         circular_img = self.make_circle(image_path)
         tk_image = ImageTk.PhotoImage(circular_img)
         
@@ -98,7 +98,7 @@ class SocialMediaProfileFinder:
 
 
         # Link to the path that will show the results
-        script_path = "C:/Users/sassy/OneDrive - Saginaw Valley State University/CIS255/CSIS 516/FinalProject/FinalProjectResultsGUI.py"
+        script_path = "src/FinalProjectResultsGUI.py"
         
         try:
             subprocess.run(["python", script_path, first_name, last_name])
