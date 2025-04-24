@@ -123,7 +123,7 @@ class SocialMediaProfiles:
         script_path = "FinalProjectGUI.py"
             
         try:
-            subprocess.run(["python", script_path, self.firstName, self.lastName])
+            subprocess.run([sys.executable, script_path, self.firstName, self.lastName])
             self.window.destroy() # Close the current window
         except Exception as e:
             print(f"Error: {e}")

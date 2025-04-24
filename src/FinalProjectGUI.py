@@ -101,7 +101,7 @@ class SocialMediaProfileFinder:
         script_path = "FinalProjectResultsGUI.py"
         
         try:
-            subprocess.run(["python", script_path, first_name, last_name])
+            subprocess.run([sys.executable, script_path, first_name, last_name])
             self.window.destroy() # Close the current window
         except subprocess.CalledProcessError as e:
             print(f"Error: {e}")
