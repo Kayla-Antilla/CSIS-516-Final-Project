@@ -10,26 +10,28 @@ Final Python Project (Social Media Profile Finder App)
 **Technologies used:** For this Python application the technologies used in development from the Python Libraries will be Tkinter for the GUI, and links to open up websites directly through clicking on the link.
 
 **Setup Instructions:** 
-    **Step 1: Clone this repository**
+     **Step 1: Make sure your in the C: drive** 
+        C:
+    **Step 2: Clone this repository**
         git clone https://github.com/Kayla-Antilla/CSIS-516-Final-Project.git
-    **Step 2: Navigate to the project directory**
+    **Step 3: Navigate to the project directory**
         cd CSIS-516-Final-Project
-    **Step 3: Create a virtual environment (recommended)**
+    **Step 4: Create a virtual environment (recommended)**
         Windows:
-        python -m venv venv
+           python -m venv venv
         macOS/Linux:
-        python3 -m venv venv
-    **Step 4: Activate the virtual environment**
+           python3 -m venv venv
+    **Step 5: Activate the virtual environment**
         Windows:
-        .\venv\Scripts\activate
+           .\venv\Scripts\activate
         macOS/Linux:
-        source venv/bin/activate
-    **Step 5: Install the required libraries**
+           source venv/bin/activate
+    **Step 6: Install the required libraries**
         pip install -r requirements.txt
-    **Step 6: Navigate to the app folder**
+    **Step 7: Navigate to the app folder**
         Navigate to the 'src' folder:
-        cd src
-    **Step 7: Run the app**
+           cd src
+    **Step 8: Run the app**
         python FinalProjectGUI.py
 
 **Youtube video link:** 
