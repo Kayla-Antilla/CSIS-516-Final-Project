@@ -2,7 +2,7 @@ import sys
 import subprocess
 import webbrowser
 from tkinter import * # Import tkinter
-from PIL import Image, ImageTk, ImageDraw # For adding images
+# from PIL import Image, ImageTk, ImageDraw # For adding images
 
 # GUI class to display social media profile results
 class SocialMediaProfiles:
@@ -59,6 +59,7 @@ class SocialMediaProfiles:
 
     # Create a row in the GUI for a specific platform
     def create_platform_row(self, platform_name, image_path, row_num):
+        from PIL import Image, ImageTk, ImageDraw # For adding images
         circular_img = self.make_circle(image_path)
         tk_image = ImageTk.PhotoImage(circular_img)
         
@@ -109,6 +110,7 @@ class SocialMediaProfiles:
 
     # Function to create circular images from square ones 
     def make_circle(self, image_path, size =(50, 50)):
+        from PIL import Image, ImageTk, ImageDraw # For adding images
         img = Image.open(image_path).resize(size, Image.LANCZOS)
         mask = Image.new("L", size, 0)
         draw = ImageDraw.Draw(mask)
