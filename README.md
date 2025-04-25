@@ -7,7 +7,7 @@ Final Python Project (Social Media Profile Finder App)
 
 **Value:**  This app values efficiency and convenience for its users. It is meant to reduce the amount of time spent searching for each account individually by putting all of it in one convenient location. This could also be the building block to potentially a later version that includes APIs.
 
-**Technologies used:** For this Python application the technologies used in development from the Python Libraries will be Tkinter for the GUI, and links to open up websites directly through clicking on the link.
+**Technologies used:** For this Python application the technologies used in development from the Python Libraries will be Tkinter for the GUI, and links to open up websites directly through clicking on the link. This app also uses Pillow from the Python library to display and modify the images.
 
 **Setup Instructions:** 
      **Step 1: Make sure your in the C: drive** 
