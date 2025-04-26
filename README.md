@@ -34,5 +34,5 @@ Final Python Project (Social Media Profile Finder App)
     **Step 8: Run the app**
         python FinalProjectGUI.py
 
-**Youtube video link:** 
-
+**Loom video link:** 
+    https://www.loom.com/share/8ff02c27903d43ca8a4982b4d68fd374?sid=b90959e3-6001-4a7a-9c27-038a38ae098d
